@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f6f8b79-b1aa-4647-9328-83d378e50e38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/RegisterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview-Challenge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/SignUpPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/RegisterTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.RegisterTests.executor": "Run",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
