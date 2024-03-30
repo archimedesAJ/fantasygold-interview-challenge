@@ -27,7 +27,7 @@ jobs:
         cache: maven
   
     - name: Navigate to Maven project directory
-      run: cd archimedesAJ/fantasygold-interview-challenge/Interview-Challenge
+      run: cd Interview-Challenge
       
     - name: Build with Maven
-      run: mvn test -DsuiteFile="testng.xml"
+      run: mvn test -DsuiteFile="testng.xml" -e
