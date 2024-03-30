@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f6f8b79-b1aa-4647-9328-83d378e50e38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/CheckoutTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/ProductFilterSearchTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview-Challenge/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview-Challenge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/ShopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/ShopPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/RegisterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/Page_Objects/ShopPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/Page_Objects/ShopPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
