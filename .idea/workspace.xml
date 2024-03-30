@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f6f8b79-b1aa-4647-9328-83d378e50e38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/DataUtils/ReadExcelFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/ShopPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/CheckoutTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/ProductFilterSearchTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interview-Challenge/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview-Challenge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/ShopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/ShopPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/RegisterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/RegisterTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/Page_Objects/ShopPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/Page_Objects/ShopPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,10 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/abrah/Desktop/fantasygold-interview-challenge/Interview-Challenge/testng.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LoginTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductFilterSearchTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProductFilterSearchTests.productSearch.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.RegisterTests.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
@@ -62,6 +68,62 @@
       <recent name="C:\Users\abrah\Desktop\fantasygold-interview-challenge\.idea" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="C:/Users/abrah/Desktop/fantasygold-interview-challenge/Interview-Challenge/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Interview-Challenge" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Interview-Challenge/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\Users\abrah\Desktop\fantasygold-interview-challenge" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductFilterSearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Interview-Challenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductFilterSearchTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductFilterSearchTests.productSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Interview-Challenge" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductFilterSearchTests" />
+      <option name="METHOD_NAME" value="productSearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.ProductFilterSearchTests" />
+      <item itemvalue="TestNG.ProductFilterSearchTests.productSearch" />
+      <item itemvalue="TestNG.C:/Users/abrah/Desktop/fantasygold-interview-challenge/Interview-Challenge/testng.xml" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ProductFilterSearchTests" />
+        <item itemvalue="TestNG.ProductFilterSearchTests.productSearch" />
+        <item itemvalue="TestNG.C:/Users/abrah/Desktop/fantasygold-interview-challenge/Interview-Challenge/testng.xml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,5 +134,10 @@
       <updated>1711551224626</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:io.reactivex.rxjava3:rxjava" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
 </project>
