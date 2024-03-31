@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="tests" name="Test2(failed)" verbose="0">
+    <classes>
+      <class name="ProductFilterSearchTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="productByInstock"/>
+          <include name="productFilterBySkinCar"/>
+          <include name="addToCart"/>
+          <include name="productFilterByHomeCare"/>
+          <include name="productSearch"/>
+          <include name="productFilterByHair"/>
+        </methods>
+      </class> <!-- ProductFilterSearchTests -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="2" parallel="tests" name="Test3(failed)" verbose="0">
+    <classes>
+      <class name="CheckoutTests">
+        <methods>
+          <include name="checkout"/>
+          <include name="viewCart"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- CheckoutTests -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="2" parallel="tests" name="Test1(failed)" verbose="0">
+    <classes>
+      <class name="LoginTests">
+        <methods>
+          <include name="loginSuccesfulwithUsername" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="loginwithWrongEmail"/>
+          <include name="loginwithWrongPassword" invocation-numbers="0 1"/>
+          <include name="loginSuccesfulwithEmail" invocation-numbers="0 1"/>
+          <include name="loginwithWrongUsername"/>
+        </methods>
+      </class> <!-- LoginTests -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

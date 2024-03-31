@@ -15,15 +15,15 @@ import java.io.IOException;
 public class LoginTests {
     private WebDriver driver;
 
+    //Setting up the page
     @BeforeClass
     public void setUp(){
         WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
+    //Test to open the site
     @Test
     public void OpenSite() throws InterruptedException {
         driver.get("https://moreplexghana.com/");
@@ -31,6 +31,7 @@ public class LoginTests {
         Thread.sleep(2000);
     }
 
+    //Test to verify user login with email and password (TC_01)
     @Test (dataProvider = "testdata", priority = 1)
     public void loginSuccesfulwithEmail(String username, String email, String password) throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
@@ -48,7 +49,7 @@ public class LoginTests {
     }
 
 
-
+    // Test to verify user login with username and password (TC_02)
     @Test(dataProvider = "testdata",priority = 2)
     public void loginSuccesfulwithUsername(String username, String email, String password) throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
@@ -65,7 +66,9 @@ public class LoginTests {
         Thread.sleep(2000);
     }
 
-    //Negative Test Cases
+    /* Negative Test Cases*/
+
+    //Test to verify user login with wrong email (TC_03)
     @Test(priority = 3)
     public void loginwithWrongEmail() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
@@ -80,6 +83,7 @@ public class LoginTests {
         Thread.sleep(3000);
     }
 
+    //Test to verify user login with wrong username (TC_04)
     @Test(priority = 4)
     public void loginwithWrongUsername() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
@@ -94,6 +98,7 @@ public class LoginTests {
         Thread.sleep(3000);
     }
 
+    //Test to verify user login with correct email but wrong password (TC_05)
     @Test(dataProvider ="testdata", priority = 5)
     public void loginwithWrongPassword(String username, String email, String password) throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
@@ -108,6 +113,7 @@ public class LoginTests {
         Thread.sleep(3000);
     }
 
+    // //Method to retrieve test data to be used by the tests
     @DataProvider (name="testdata")
     public Object[][] TestDataFeed() {
         ReadExcelFile config = new ReadExcelFile("TestData/Credentials.xls");

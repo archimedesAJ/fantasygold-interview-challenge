@@ -15,15 +15,15 @@ import java.time.chrono.ThaiBuddhistEra;
 public class RegisterTests {
     private WebDriver driver;
 
+    //Set up the chrome
     @BeforeClass
     public void setUp(){
         WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
 
+    //Test to open the site
     @Test
     public void OpenSite() throws InterruptedException {
         driver.get("https://moreplexghana.com/");
@@ -31,6 +31,7 @@ public class RegisterTests {
         Thread.sleep(2000);
     }
 
+    //Test to verify registration with valid username, email and password (TC_01)
     @Test (dataProvider = "testdata1", priority = 1)
     public void testSuccessfulRegister(String username, String email, String password) throws InterruptedException {
         RegisterPage registerPage = new RegisterPage(driver);
@@ -47,7 +48,9 @@ public class RegisterTests {
         Thread.sleep(2000);
     }
 
-    //Negative TCs
+
+    /* Negative TCs */
+    //Test to verify registration with an already existing username (TC_02)
     @Test(priority = 2)
     public void registerwithAlreadyExistingUsername() throws InterruptedException {
         RegisterPage registerPage = new RegisterPage(driver);
@@ -62,7 +65,7 @@ public class RegisterTests {
         Assert.assertEquals(error_message, "Error: An account is already registered with that username. Please choose another.");
     }
 
-    //Negative TCs
+    // Test to verify registration with an already existing email address (TC_03)
     @Test (priority = 3)
     public void registerwithAlreadyExistingEmail() throws InterruptedException {
         RegisterPage registerPage = new RegisterPage(driver);
@@ -78,6 +81,7 @@ public class RegisterTests {
         //The error message says please log in at the end of the message. But that's not shown to the user at the frontend
     }
 
+    //Method to retrieve test data to be used by the tests
     @DataProvider(name="testdata1")
     public Object[][] TestDataFeed() {
         ReadExcelFile config = new ReadExcelFile("TestData/Credentials.xls");

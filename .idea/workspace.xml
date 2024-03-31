@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f6f8b79-b1aa-4647-9328-83d378e50e38" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/TestListenerUtil/ScreenshotListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interview-Challenge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/CheckoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/CheckoutTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/DataUtils/ReadExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/DataUtils/ReadExcelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/ShopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/Page_Objects/ShopPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/ProductFilterSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/ProductFilterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/src/test/java/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/src/test/java/RegisterTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/CheckoutTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/CheckoutTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/DataUtils/ReadExcelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/DataUtils/ReadExcelFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/LoginTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/Page_Objects/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/Page_Objects/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/Page_Objects/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/Page_Objects/RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/Page_Objects/ShopPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/Page_Objects/ShopPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/ProductFilterSearchTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/RegisterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/target/test-classes/RegisterTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview-Challenge/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interview-Challenge/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +54,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/abrah/Desktop/fantasygold-interview-challenge/Interview-Challenge/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ProductFilterSearchTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ProductFilterSearchTests.productSearch.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegisterTests.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/abrah/Desktop/fantasygold-interview-challenge&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.17356321&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/abrah/Desktop/fantasygold-interview-challenge/Interview-Challenge/testng.xml.executor": "Run",
+    "TestNG.CheckoutTests.executor": "Run",
+    "TestNG.LoginTests.executor": "Run",
+    "TestNG.ProductFilterSearchTests.executor": "Run",
+    "TestNG.ProductFilterSearchTests.productSearch.executor": "Run",
+    "TestNG.RegisterTests.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/abrah/Desktop/fantasygold-interview-challenge",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.17356321"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\abrah\Desktop\fantasygold-interview-challenge\Interview-Challenge\src\main\resources\TestData" />
@@ -63,55 +83,16 @@
   <component name="RunManager">
     <configuration name="C:/Users/abrah/Desktop/fantasygold-interview-challenge/Interview-Challenge/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Interview-Challenge" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Interview-Challenge/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="C:\Users\abrah\Desktop\fantasygold-interview-challenge" />
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductFilterSearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Interview-Challenge" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductFilterSearchTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductFilterSearchTests.productSearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Interview-Challenge" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProductFilterSearchTests" />
-      <option name="METHOD_NAME" value="productSearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="TestNG.ProductFilterSearchTests" />
-      <item itemvalue="TestNG.ProductFilterSearchTests.productSearch" />
-      <item itemvalue="TestNG.C:/Users/abrah/Desktop/fantasygold-interview-challenge/Interview-Challenge/testng.xml" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ProductFilterSearchTests" />
-        <item itemvalue="TestNG.ProductFilterSearchTests.productSearch" />
         <item itemvalue="TestNG.C:/Users/abrah/Desktop/fantasygold-interview-challenge/Interview-Challenge/testng.xml" />
       </list>
     </recent_temporary>

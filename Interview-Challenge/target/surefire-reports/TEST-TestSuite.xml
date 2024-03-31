@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="64.492" tests="19" errors="0" skipped="0" failures="16">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/abrah/Desktop/fantasygold-interview-challenge/Interview-Challenge"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\abrah\Desktop\fantasygold-interview-challenge\Interview-Challenge"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\abrah\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/Program Files/apache-maven-3.9.6/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\abrah\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk-19\bin;C:\php-8.2.0;C:\webdrivers;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\apache-maven-3.9.6\bin;C:\Users\abrah\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\abrah\AppData\Local\Programs\Python\Python311;C:\Users\abrah\AppData\Local\Microsoft\WindowsApps;C:\Users\abrah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\abrah\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\abrah\AppData\Local\Programs\Python\Python311;C:\src\flutter\flutter\bin;C:\Users\abrah\AppData\Roaming\npm;C:\Users\abrah\AppData\Roaming\Composer\vendor\bin;C:\wkhtmltox\bin;C:\Users\abrah\AppData\Local\Android\Sdk\build-tools;C:\Users\abrah\AppData\Local\Android\Sdk\platform-tools;C:\Users\abrah\AppData\Local\Android\Sdk\tools;C:\Users\abrah\AppData\Local\Android\Sdk\platforms;C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin;."/>
+    <property name="maven.conf" value="C:/Program Files/apache-maven-3.9.6/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="63.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/Program Files/apache-maven-3.9.6/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\abrah"/>
+    <property name="user.timezone" value="Atlantic/Reykjavik"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="19"/>
+    <property name="user.name" value="abrah"/>
+    <property name="java.class.path" value="C:/Program Files/apache-maven-3.9.6/boot/plexus-classworlds-2.7.0.jar"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -DsuiteFile=testng.xml -e"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.9.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="suiteFile" value="testng.xml"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="OpenSite" classname="LoginTests" time="31.693"/>
+  <testcase name="OpenSite" classname="ProductFilterSearchTests" time="0.712"/>
+  <testcase name="productFilterByHair" classname="ProductFilterSearchTests" time="2.175">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, clickElement {id=f.3A720B1E96707267029DBB8C5A17D219.d.5740281A12F8A842E5A2F7090F38CEDA.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (8f208e3f17c7674f0ca88f8d6dbafa2d)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[2]/a]&#10;Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, clickElement {id=f.3A720B1E96707267029DBB8C5A17D219.d.5740281A12F8A842E5A2F7090F38CEDA.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (8f208e3f17c7674f0ca88f8d6dbafa2d)] -> xpath: //*[@id="top-menu"]/li[2]/a]
+Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.ShopPage.navigateToShopPage(ShopPage.java:15)
+	at ProductFilterSearchTests.productFilterByHair(ProductFilterSearchTests.java:34)
+</failure>
+  </testcase>
+  <testcase name="loginSuccesfulwithEmail" classname="LoginTests" time="1.273">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[5]/a]&#10;Session ID: 7deeafdcb2ab2012be37c218f78978de" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -> xpath: //*[@id="top-menu"]/li[5]/a]
+Session ID: 7deeafdcb2ab2012be37c218f78978de
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.LoginPage.navigateToLoginPage(LoginPage.java:16)
+	at LoginTests.loginSuccesfulwithEmail(LoginTests.java:37)
+</failure>
+  </testcase>
+  <testcase name="productFilterBySkinCar" classname="ProductFilterSearchTests" time="0.841">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, clickElement {id=f.3A720B1E96707267029DBB8C5A17D219.d.5740281A12F8A842E5A2F7090F38CEDA.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (8f208e3f17c7674f0ca88f8d6dbafa2d)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[2]/a]&#10;Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, clickElement {id=f.3A720B1E96707267029DBB8C5A17D219.d.5740281A12F8A842E5A2F7090F38CEDA.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (8f208e3f17c7674f0ca88f8d6dbafa2d)] -> xpath: //*[@id="top-menu"]/li[2]/a]
+Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.ShopPage.navigateToShopPage(ShopPage.java:15)
+	at ProductFilterSearchTests.productFilterBySkinCar(ProductFilterSearchTests.java:43)
+</failure>
+  </testcase>
+  <testcase name="productFilterByHomeCare" classname="ProductFilterSearchTests" time="2.122">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, clickElement {id=f.3A720B1E96707267029DBB8C5A17D219.d.5740281A12F8A842E5A2F7090F38CEDA.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (8f208e3f17c7674f0ca88f8d6dbafa2d)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[2]/a]&#10;Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, clickElement {id=f.3A720B1E96707267029DBB8C5A17D219.d.5740281A12F8A842E5A2F7090F38CEDA.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (8f208e3f17c7674f0ca88f8d6dbafa2d)] -> xpath: //*[@id="top-menu"]/li[2]/a]
+Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.ShopPage.navigateToShopPage(ShopPage.java:15)
+	at ProductFilterSearchTests.productFilterByHomeCare(ProductFilterSearchTests.java:52)
+</failure>
+  </testcase>
+  <testcase name="loginSuccesfulwithEmail" classname="LoginTests" time="1.14">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[5]/a]&#10;Session ID: 7deeafdcb2ab2012be37c218f78978de" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -> xpath: //*[@id="top-menu"]/li[5]/a]
+Session ID: 7deeafdcb2ab2012be37c218f78978de
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.LoginPage.navigateToLoginPage(LoginPage.java:16)
+	at LoginTests.loginSuccesfulwithEmail(LoginTests.java:37)
+</failure>
+  </testcase>
+  <testcase name="productByInstock" classname="ProductFilterSearchTests" time="0.971">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, clickElement {id=f.3A720B1E96707267029DBB8C5A17D219.d.5740281A12F8A842E5A2F7090F38CEDA.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (8f208e3f17c7674f0ca88f8d6dbafa2d)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[2]/a]&#10;Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, clickElement {id=f.3A720B1E96707267029DBB8C5A17D219.d.5740281A12F8A842E5A2F7090F38CEDA.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (8f208e3f17c7674f0ca88f8d6dbafa2d)] -> xpath: //*[@id="top-menu"]/li[2]/a]
+Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.ShopPage.navigateToShopPage(ShopPage.java:15)
+	at ProductFilterSearchTests.productByInstock(ProductFilterSearchTests.java:61)
+</failure>
+    <system-out>2
+</system-out>
+  </testcase>
+  <testcase name="productSearch" classname="ProductFilterSearchTests" time="2.12">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, clickElement {id=f.3A720B1E96707267029DBB8C5A17D219.d.5740281A12F8A842E5A2F7090F38CEDA.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (8f208e3f17c7674f0ca88f8d6dbafa2d)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[2]/a]&#10;Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, clickElement {id=f.3A720B1E96707267029DBB8C5A17D219.d.5740281A12F8A842E5A2F7090F38CEDA.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (8f208e3f17c7674f0ca88f8d6dbafa2d)] -> xpath: //*[@id="top-menu"]/li[2]/a]
+Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.ShopPage.navigateToShopPage(ShopPage.java:15)
+	at ProductFilterSearchTests.productSearch(ProductFilterSearchTests.java:70)
+</failure>
+  </testcase>
+  <testcase name="addToCart" classname="ProductFilterSearchTests" time="0.034">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;post-646&quot;]/h2/a&quot;}&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, findElement {value=//*[@id=&quot;post-646&quot;]/h2/a, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post-646"]/h2/a"}
+  (Session info: chrome-headless-shell=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8f208e3f17c7674f0ca88f8d6dbafa2d, findElement {value=//*[@id="post-646"]/h2/a, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57161/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f208e3f17c7674f0ca88f8d6dbafa2d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at Page_Objects.ShopPage.addproductToBasket(ShopPage.java:79)
+	at ProductFilterSearchTests.addToCart(ProductFilterSearchTests.java:77)
+</failure>
+  </testcase>
+  <testcase name="loginSuccesfulwithUsername" classname="LoginTests" time="0.984">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[5]/a]&#10;Session ID: 7deeafdcb2ab2012be37c218f78978de" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -> xpath: //*[@id="top-menu"]/li[5]/a]
+Session ID: 7deeafdcb2ab2012be37c218f78978de
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.LoginPage.navigateToLoginPage(LoginPage.java:16)
+	at LoginTests.loginSuccesfulwithUsername(LoginTests.java:55)
+</failure>
+    <system-err>Mar 30, 2024 8:53:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 123, returning the closest version; found: 122; Please update to a Selenium version that supports CDP version 123
+</system-err>
+  </testcase>
+  <testcase name="loginSuccesfulwithUsername" classname="LoginTests" time="4.011">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[5]/a]&#10;Session ID: 7deeafdcb2ab2012be37c218f78978de" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -> xpath: //*[@id="top-menu"]/li[5]/a]
+Session ID: 7deeafdcb2ab2012be37c218f78978de
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.LoginPage.navigateToLoginPage(LoginPage.java:16)
+	at LoginTests.loginSuccesfulwithUsername(LoginTests.java:55)
+</failure>
+  </testcase>
+  <testcase name="OpenSite" classname="CheckoutTests" time="2.238"/>
+  <testcase name="viewCart" classname="CheckoutTests" time="0.067">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [643e9adfb79ddb2284bf33b567f5d73a, clickElement {id=f.3D87C8EBFCAFAF3488FF0ACECE28A83D.d.83A94550799D239D312A7446A7873D26.e.40}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57217/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (643e9adfb79ddb2284bf33b567f5d73a)] -&gt; xpath: //*[@id=&quot;et-secondary-menu&quot;]/a]&#10;Session ID: 643e9adfb79ddb2284bf33b567f5d73a" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [643e9adfb79ddb2284bf33b567f5d73a, clickElement {id=f.3D87C8EBFCAFAF3488FF0ACECE28A83D.d.83A94550799D239D312A7446A7873D26.e.40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57217/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (643e9adfb79ddb2284bf33b567f5d73a)] -> xpath: //*[@id="et-secondary-menu"]/a]
+Session ID: 643e9adfb79ddb2284bf33b567f5d73a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.ShopPage.viewCart(ShopPage.java:87)
+	at CheckoutTests.viewCart(CheckoutTests.java:33)
+</failure>
+  </testcase>
+  <testcase name="checkout" classname="CheckoutTests" time="0.019">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;post-11&quot;]/div/div/div/div/div[2]/div/div/div/div/div/a&quot;}&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [643e9adfb79ddb2284bf33b567f5d73a, findElement {value=//*[@id=&quot;post-11&quot;]/div/div/div/div/div[2]/div/div/div/div/div/a, using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57217/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 643e9adfb79ddb2284bf33b567f5d73a" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post-11"]/div/div/div/div/div[2]/div/div/div/div/div/a"}
+  (Session info: chrome-headless-shell=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [643e9adfb79ddb2284bf33b567f5d73a, findElement {value=//*[@id="post-11"]/div/div/div/div/div[2]/div/div/div/div/div/a, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57217/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 643e9adfb79ddb2284bf33b567f5d73a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at Page_Objects.ShopPage.checkout(ShopPage.java:91)
+	at CheckoutTests.checkout(CheckoutTests.java:39)
+</failure>
+  </testcase>
+  <testcase name="loginwithWrongEmail" classname="LoginTests" time="1.781">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[5]/a]&#10;Session ID: 7deeafdcb2ab2012be37c218f78978de" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -> xpath: //*[@id="top-menu"]/li[5]/a]
+Session ID: 7deeafdcb2ab2012be37c218f78978de
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.LoginPage.navigateToLoginPage(LoginPage.java:16)
+	at LoginTests.loginwithWrongEmail(LoginTests.java:72)
+</failure>
+  </testcase>
+  <testcase name="loginwithWrongUsername" classname="LoginTests" time="4.107">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[5]/a]&#10;Session ID: 7deeafdcb2ab2012be37c218f78978de" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -> xpath: //*[@id="top-menu"]/li[5]/a]
+Session ID: 7deeafdcb2ab2012be37c218f78978de
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.LoginPage.navigateToLoginPage(LoginPage.java:16)
+	at LoginTests.loginwithWrongUsername(LoginTests.java:86)
+</failure>
+  </testcase>
+  <testcase name="loginwithWrongPassword" classname="LoginTests" time="4.112">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[5]/a]&#10;Session ID: 7deeafdcb2ab2012be37c218f78978de" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -> xpath: //*[@id="top-menu"]/li[5]/a]
+Session ID: 7deeafdcb2ab2012be37c218f78978de
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.LoginPage.navigateToLoginPage(LoginPage.java:16)
+	at LoginTests.loginwithWrongPassword(LoginTests.java:100)
+</failure>
+    <system-out>2
+</system-out>
+  </testcase>
+  <testcase name="loginwithWrongPassword" classname="LoginTests" time="4.092">
+    <failure message="element not interactable&#10;  (Session info: chrome-headless-shell=123.0.6312.86)&#10;Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -&gt; xpath: //*[@id=&quot;top-menu&quot;]/li[5]/a]&#10;Session ID: 7deeafdcb2ab2012be37c218f78978de" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome-headless-shell=123.0.6312.86)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7deeafdcb2ab2012be37c218f78978de, clickElement {id=f.DB638FA29EB1C298187D418DD18D35F9.d.B976C5A1F7EF9C93B035AA511D7E142F.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\abrah\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57162/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome-headless-shell on windows (7deeafdcb2ab2012be37c218f78978de)] -> xpath: //*[@id="top-menu"]/li[5]/a]
+Session ID: 7deeafdcb2ab2012be37c218f78978de
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at Page_Objects.LoginPage.navigateToLoginPage(LoginPage.java:16)
+	at LoginTests.loginwithWrongPassword(LoginTests.java:100)
+</failure>
+  </testcase>
+</testsuite>

@@ -12,6 +12,7 @@ public class ReadExcelFile {
     HSSFWorkbook workbook;
     HSSFSheet worksheet;
 
+    //Constructor
     public ReadExcelFile(String excel_path){
         try {
             ClassLoader classLoarder = getClass().getClassLoader();
@@ -24,12 +25,14 @@ public class ReadExcelFile {
         }
     }
 
+    //Method to get the data from the sheet
     public String getData(int sheetnumber, int row, int column){
         worksheet = workbook.getSheetAt(sheetnumber);
         String data = worksheet.getRow(row).getCell(column).getStringCellValue();
         return data;
     }
 
+    //Method to count the number of rows in a given sheet
     public int getRowCount(int sheetIndex){
         int row = workbook.getSheetAt(sheetIndex).getLastRowNum();
         row = row + 1;
