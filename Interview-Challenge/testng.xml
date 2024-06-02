@@ -4,7 +4,7 @@
     <parameter name="output-directory" value="custom-reports"/>
 
     <listeners>
-        <listener class-name="TestListenerUtil.ScreenshotListener"/>
+        <listener class-name="ExtentReportSetUp.ScreenshotListener"/>
 <!--        <listener class-name="org.testng.reporters.TestHTMLReporter"/>-->
 <!--        <listener class-name="org.testng.reporters.JUnitReportReporter"/>-->
 <!--        <listener class-name="org.testng.reporters.XMLReporter"/>-->

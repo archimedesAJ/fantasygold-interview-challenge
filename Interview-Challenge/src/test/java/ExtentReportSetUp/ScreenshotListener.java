@@ -1,4 +1,4 @@
-package TestListenerUtil;
+package ExtentReportSetUp;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

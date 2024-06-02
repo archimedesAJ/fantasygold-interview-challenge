@@ -1,11 +1,18 @@
 import DataUtils.ReadExcelFile;
 import Page_Objects.LoginPage;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -13,21 +20,44 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class LoginTests {
+
+    ExtentReports extent = new ExtentReports();
+    ExtentSparkReporter spark = new ExtentSparkReporter("target/Report.html");
+
     private WebDriver driver;
 
     //Setting up the page
     @BeforeClass
     public void setUp(){
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+        spark.config().setTheme(Theme.DARK);
+        spark.config().setDocumentTitle("My Report");
+        extent.attachReporter(spark);
+
+        WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver();
         driver.manage().window().maximize();
+    }
+
+    @AfterTest
+    public void teardown(){
+        extent.flush();
+        driver.quit();
+
     }
 
     //Test to open the site
     @Test
     public void OpenSite() throws InterruptedException {
+        ExtentTest test = extent.createTest("Confirm Page Title").assignAuthor("Abraham").assignCategory("Functional Test").assignDevice("Windows");
         driver.get("https://moreplexghana.com/");
-        Assert.assertEquals(driver.getTitle(), "Moreplex");
+        String page_title = driver.getTitle();
+        if (page_title.equals("Moreplex")){
+            test.pass("Test passed. Page titles match!");
+        }
+        else {
+            test.fail("Test failed. Page titles mismatch!");
+        }
+//        boolean dec = Assert.assertEquals(driver.getTitle(), "Moreplex");
         Thread.sleep(2000);
     }
 
